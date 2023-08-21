@@ -1,0 +1,31 @@
+
+#fondogral {
+  text-align: center;
+  color: white;
+  background-image: url(edificacion.jpeg);
+  
+}
+img{
+  border: 3px solid white;
+}
+section{
+  text-align: left;
+}
+div {
+  text-align: left;
+  margin-bottom: 7px;
+  margin-right: 450px;
+}
+.parrafos {
+  background-color: black;
+}
+img {
+  background-color: black;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 25px;
+}
+.footer {
+  background-color: black;
+}

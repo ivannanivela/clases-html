@@ -1,0 +1,41 @@
+
+.header {
+   background-color: pink;
+   height: 100px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    gap: 30px;
+    margin-right: 10px;
+    
+}
+.subcontainer {
+    border: 2px solid plum ;
+    background-color: white;
+    padding: 2px;
+    font-weight: 800;
+    font-size: medium;
+    margin-top: 30px;
+}
+.logo {
+    height: 80px;
+    border: 1px solid pink;
+    padding: 2px;
+}
+
+.subcontainer:hover {
+    background-color: pink;
+    color: palevioletred;
+}
+@media screen and (max-width: 600px) {
+
+        .container {
+            gap: 3px;
+        }
+        .logo {
+            height: 60px;
+        }
+    
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <form class="registerform">
+
+        <h2>REGISTRO</h2>
+
+        <div class="registercontainer">
+            <div class="registersubcontainer">
+              <label for="nombre">Nombre completo</label>
+              <input type="text" id="nombre" class="input">
+            </div>
+
+            <div class="registersubcontainer">
+              <label for="username">Nombre de usuario</label>
+              <input type="text" id="username" class="input">
+            </div>
+
+        </div>
+
+
+        <div class="registercontainer">
+
+            <div class="registersubcontainer">
+              <label for="password">Contraseña</label>
+              <input type="password" id="password" class="input">
+            </div>
+
+            <div class="registersubcontainer">
+              <label for="repeatpasword">Repetir contraseña</label>
+              <input type="password" id="repeatpasword" class="input">
+            </div>
+
+        </div>
+
+
+        <div class="registercontainer">
+
+            <div class="registersubcontainer">
+              <label for="mail">Correo electronico</label>
+              <input type="mail" id="mail" class="input">
+            </div>
+
+            <div class="registersubcontainer">
+              <label for="phonenumber">Telefono</label>
+              <input type="tel" id="phonenumber" class="input">
+            </div>
+
+        </div>
+
+
+        <div class="registercontainer">
+            <div class="registersubcontainer">
+              <label for="country">País</label>
+              <select id="country" class="input">
+                <option selected="argentina" value="argentina">argentina</option>
+                <option value="uruguay">uruguay</option>
+                <option value="chile">chile</option>
+              </select>
+            </div>
+
+            <div class="registersubcontainer">
+              <label for="fechanacimiento">Fecha de nacimiento</label>
+              <input type="date" id="fechanacimiento" class="input">
+            </div>
+
+        </div>
+
+
+        <label for="">Genero</label>
+        
+            <fieldset class="registerfieldset">
+
+            <div class="registersubcontainer">
+                <input type="radio" id="femenino" name="genero" >
+                <label for="femenino">fem</label>
+            </div>
+
+            <div class="registersubcontainer">
+                <input type="radio" id="masculino" name="genero" >
+                <label for="masculino">masc</label>
+            </div>
+
+            <div class="registersubcontainer">
+                <input type="radio" id="otro" name="genero" >
+                <label for="otro">other</label>
+            </div>
+
+        </fieldset>
+
+
+          <div class="registercontainer">
+            <div class="registertermns">
+                <label for="termns">Acepto los terminos y condiciones</label>
+                <input type="checkbox" id="termns" >
+            </div>
+          </div>
+
+        <button type="submit" class="submit-button">Registrarse</button>
+    </form>
+</body>
+</html>

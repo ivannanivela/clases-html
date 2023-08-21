@@ -1,0 +1,70 @@
+label {
+    margin: 0px auto;
+}
+
+select{
+    width: 173px;
+}
+
+.input {
+    width: 173px;
+}
+
+.registerform {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   width: 50%;
+   margin: 0px auto;
+}
+.registercontainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 15px;
+    justify-content: center;
+
+}
+.registersubcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+}
+.registerfieldset {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    margin: 0px auto;
+}
+h2 {
+    margin: 0px auto;
+}
+
+button {
+    width: 100px;
+    margin: 0% auto;
+    background-color: gray;
+    color: white;
+}
+
+.registertermns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px auto;
+    
+}
+.submit-button:hover {
+      background-color: white;
+      color: gray;
+}
+.input:focus{
+    border: 3px solid red ;
+}
+
+@media screen and (max-width: 600px) {
+    .input {
+        width: 130px;
+    }
+}
